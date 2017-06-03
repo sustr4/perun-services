@@ -4,7 +4,6 @@
 use Sys::Syslog;
 use XML::Simple;
 use Text::CSV;
-use Data::Dumper;
 use Array::Utils qw(:all);
 use JSON::XS;
 my $vos = XMLin( '-',
